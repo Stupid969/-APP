@@ -1,0 +1,28 @@
+# IDE和编辑器相关的临时文件
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 由 'flutter pub get' 或 'flutter build' 生成的文件
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# 编译产物，绝对不要上传！
+build/
+
+# 包管理文件
+# pubspec.lock 建议上传，以保证团队成员依赖版本一致性
+# 如果您确认不需要，可以取消下面一行的注释
+# pubspec.lock
+
+# 本地配置文件 (包含您电脑上的SDK路径等敏感信息)
+/android/local.properties
+/ios/local.properties
+
+# 日志和诊断文件
+*.log
+*.DS_Store
+Thumbs.db
